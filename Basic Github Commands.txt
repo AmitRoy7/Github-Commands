@@ -1,3 +1,6 @@
+Some basic github operations and corresponding commands for linux: 
+
+
 1. Adding Repository 			--- 			sudo add-apt-repository ppa:git-core/ppa
 
 2. Updating System 			--- 			sudo apt update;
