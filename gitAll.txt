@@ -1,0 +1,65 @@
+1. Adding Repository 			--- 			sudo add-apt-repository ppa:git-core/ppa
+
+2. Updating System 			--- 			sudo apt update;
+
+3. Installing git 			--- 			sudo apt install git;
+
+4. Checking Version 			--- 			git --version;
+
+5. Initializing Git in a Folder 	--- 			git init;
+
+6. Txt file create touch command	---			touch first.txt;
+
+7. Checking git status			---			git status;
+
+8. Adding a file to git(before commit)	---			git add first.txt;
+
+9. Add all files in a directory		---			git add .
+
+10. Configuring User Email 		---			git config --global user.email "aroy7298@gmail.com"
+
+11. Configuring User Name		---			git config --global user.name "AmitRoy7"
+
+12. Commit in git			---			git commit;
+
+13. Commiting with message		---			git commit -m "message";
+
+14. Checking git log			--- 			git log;
+
+15. Checking git log in one line	---			git log --oneline;
+
+16. Showing details of a commit 	---			git show commit_number;
+
+17. Finding the difference		---			git diff;
+
+18. Finding the difference after	---			git diff --staged;
+staging	
+
+19. Finding difference between		---			git diff commit_number1 commit_number2;
+two commit 
+
+20. Delete a file 			---			git rm file_name
+
+21. Delete and reset			--- 			git reset HEAD file_name
+
+22. Version Control			---			git checkout commit_number file_name;
+
+23. Cloning a repository		---			git clone url;
+
+24. Cloning with a new name		---			git clone url new_name;
+
+25. Pushing a repository after		---			git push -u origin master;
+cloning, editing, staging
+and commiting
+
+26. Checking current branch		---			git branch;
+
+27. Creating new branch			---			git branch branch_name;
+
+28. Switching to a branch		---			git checkout branch_name;
+
+29. Merging one branch to master	---			git checkout master;
+branch								git branch branch_name;
+
+30. creating and switching		---			git checkout -b branch_name;
+a branch
