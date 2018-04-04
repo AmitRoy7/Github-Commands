@@ -1,0 +1,6 @@
+Open a terminal and install curl
+
+sudo apt-get install curl
+
+Then, type the following command
+curl http://icanhazip.com
