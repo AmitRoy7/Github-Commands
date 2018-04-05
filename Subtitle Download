@@ -1,0 +1,12 @@
+You need to install python module subliminal. 
+To do so run the command
+
+sudo pip install subliminal 
+or sudo pip3 install subliminal
+
+After that go to the direcotry of the movie video file
+open a terminal in the respective directory and run the command
+
+subliminal download -l en movie_video_file_name.mp4
+
+Your subtitle file will be downloaded in the respective folder. Enjoy!!!
