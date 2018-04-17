@@ -1,0 +1,6 @@
+Open a terminal and run the following commands serially...
+
+
+sudo add-apt-repository ppa:damien-moore/codeblocks-stable
+sudo apt update
+sudo apt install codeblocks
